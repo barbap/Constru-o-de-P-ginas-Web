@@ -1,0 +1,63 @@
+<html>
+	<head>
+	<title>Marcar Horário</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+	<h1> Página da Bárbara Paim</h1>
+		<nav>
+			<ul>
+				<h2>
+					<li><a href='index.html'><strong>Início</strong></a></li>  
+					<li><a href='curriculo.html'><strong>Currículo</strong></a></li> 
+					<li><a href='midias.html'><strong>Filmes/Séries favoritos</strong></a></li> 
+					<li><a href='livros.html'><strong>Livros Preferidos</strong></a></li>
+					<li><a href='marcarhorario.html'><strong>Marcar Horário</strong></a></li>
+					<li><a href='horarios.html'><strong>Horários</strong></a></li>
+				</h2>
+			</ul>
+		</nav>
+		<section>
+			<div class="line">
+				<div class="col-8">
+					<div class="bloco bloco-esquerdo ">
+						<form action="index.html" method="post" target="_blank">
+						<fieldset>
+						<legend> Marcar Horário </legend>
+						<p>Nome: <input name="nome" value="" type="text" required ></p>
+						<p>E-mail: <input name="email" value=""  type="email" required></p>
+						<p>Assunto: <input name="assunto" value=""  type="text"  ></p>
+						<p>Idade: <input name="idade" value=""  type="text" ></p>
+						<p>Sexo: <input type="radio" name="sexo" value="f"> F 
+						<input type="radio" name="sexo" value="m"> M </p>
+						<p>Dia: <input name="dia" value="" type="date" min="2019-04-26" required></p>
+						<p>Horário<input type="time" name="horario" required></p>
+						<p>Mensagem<textarea name="mensagem" rows="20" cols="20"></textarea></p>
+						<p>Arquivo'('caso necessário')' <input type="file" name="foto"></p>
+						<p><input name='enviar' value='ENVIAR'  type='submit'>
+						<input name='redefinir' value='APAGAR' type='reset'></p>
+						</fieldset>
+					</div>
+				</div>
+				<div class="bloco-direito col-4">
+				<div class="bloco">
+					<h3>Favoritos</h3>  
+					<h4><a href='https://twitter.com'> Twitter</h4>
+					<p><img src='imagens/twitter.png' alt='twitter'>
+					Rede social que uso como diário e reclamo bastante do Expresso Vitória.</p><br><br>
+					<h4><a href='https://www.netflix.com'> Netflix</h4>
+					<p><img src='imagens/netflix.png' alt='Netflix' ></a>
+					Plataforma que utilizo para assistir B99.</p><br>
+					<h4><a href='https://www.youtube.com/'> Youtube</h4>
+					<p><img src='imagens/youtube.png' alt='YouTube'></a>
+					Plataforma que utilizo para passar tempo.</p><br>
+				</div>
+			</div>
+			</div>
+
+		</section>
+		</form>
+		<footer>Feito por Bárbara Paim</footer>
+	</body>
+</html>
